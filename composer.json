@@ -1,0 +1,39 @@
+{
+  "name": "rianorie/statamic-separator-fieldtype",
+  "description": "A Statamic fieldtype that functions as a separator",
+  "keywords": [
+      "statamic",
+      "fieldtype",
+      "separator"
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "illuminate/support": "^8.0",
+    "statamic/cms": "3.0.* || 3.1.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "RO\\StatamicSeparator\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rian Orie"
+    }
+  ],
+  "support": {
+    "email": "me@rianorie.com"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Separator",
+      "description": "A Statamic fieldtype that adds a separator"
+    },
+    "laravel": {
+      "providers": [
+        "RO\\StatamicSeparator\\ServiceProvider"
+      ]
+    }
+  }
+}
